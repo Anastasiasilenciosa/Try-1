@@ -1,0 +1,18 @@
+while True:
+    n=input("Do you want to study Spanish?y/n\n")
+    if  n=='y':
+        n=input("Choose the word from the list :dog,cat,house,key word,music ")
+        if n=='dog':
+           print('in Spanish it is "perro"')
+        elif n=='cat':
+           print('in Spanish it is "gato"')
+        elif n=='house':
+           print('in Spanish it is "casa"')
+        elif n=='key word':
+           print('in Spanish it is "palabra clave"')
+        elif n=='music':
+           print('in Spanish it is "musica"')
+    elif n=='n':
+        print("Okay:(")
+        break
+    
